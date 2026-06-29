@@ -14,8 +14,6 @@
 - 💻 **Competitive Programming:** Solved **750+** problems on LeetCode, Codeforces, and CodeChef
 - ⚡ **Fun fact:** I enjoy building scalable web applications and solving challenging algorithmic problems.
 
-## 🚀 Tech Stack
-**MERN Stack | React.js | Node.js | Express.js | MongoDB | Redis | Socket.IO | Tailwind CSS | JWT | REST APIs | C++ | Python | SQL**
 
 
 
