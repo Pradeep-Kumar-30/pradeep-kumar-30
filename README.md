@@ -18,7 +18,7 @@ Building reliable backend systems and AI applications grounded in evidence.
 
 ## About me
 
-- 🎓 B.Tech in Computer Science at **IIIT Bhagalpur** — **9.15/10 CGPA** (2024–2028)
+- 🎓 B.Tech in Computer Science at **IIIT Bhagalpur**  (2024–2028)
 - 💼 Full Stack Developer Intern at **AMUS SOFT** (Jul–Aug 2026)
 - 🤖 Building with **LLMs, RAG, LangGraph, and tool-using agents**
 - 🔎 Developing **PacketLens**, a Python deep packet inspection engine
