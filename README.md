@@ -14,7 +14,7 @@
 
 ### About me
 
-- 🎓 **B.Tech CSE student at IIIT Bhagalpur** — CGPA **9.15/10**
+- 🎓 **B.Tech CSE student at IIIT Bhagalpur** 
 - 💼 **Full Stack Developer Intern at AMUS SOFT**
 - 🧠 Building with **LLMs, RAG, AI agents, and backend systems**
 - 🔭 Currently working on **PacketLens**, a Python-based Deep Packet Inspection engine
