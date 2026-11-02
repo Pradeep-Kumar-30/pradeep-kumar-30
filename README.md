@@ -64,7 +64,7 @@ A full-stack collaboration platform built for a college community, with real-tim
 ## 🏅 Competitive programming
 
 - **850+** problems solved across platforms
-- **Codeforces:** Specialist · peak rating **1410**
+- **Codeforces:** Pupil · peak rating **1410**
 - **CodeChef:** 3-Star · peak rating **1653**
 - **LeetCode:** contest rating **1694** · top **14.69%**
 
