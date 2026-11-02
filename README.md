@@ -23,7 +23,7 @@
 
 I'm a **Full-Stack Developer and AI Engineer** pursuing Computer Science at **IIIT Bhagalpur**. I like taking a problem from packet parsing or product idea through backend logic and into a usable interface.
 
-- 🎓 **B.Tech in CSE, IIIT Bhagalpur** · CGPA **9.15/10** · 2024–2028
+- 🎓 **B.Tech in CSE, IIIT Bhagalpur** ·  · 2024–2028
 - 💼 **Full Stack Developer Intern, AMUS SOFT** · Jul–Aug 2026
 - 🔭 Building **PacketLens** and full-stack applications; exploring **Medisaathi**, a smart appointment and queue management system
 - 🌱 Learning **System Design, advanced backend development, Redis, and scalable architecture**
