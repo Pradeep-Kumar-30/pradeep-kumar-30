@@ -1,91 +1,74 @@
 <div align="center">
 
-# 👋 Hi, I'm Pradeep Kumar
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0EA5E9,100:22D3EE&height=220&section=header&text=Pradeep%20Kumar&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20Engineer&descAlignY=60&descSize=18" width="100%" alt="Pradeep Kumar profile banner" />
 
-### Full-Stack Developer · AI Engineer · Competitive Programmer
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+AI-powered+applications;Turning+PCAP+traffic+into+clear+insights;Creating+RAG+and+multi-agent+workflows;Shipping+reliable+full-stack+software" alt="Animated introduction" />
+</a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Building+AI-powered+applications;Designing+reliable+backend+systems;Exploring+RAG+and+multi-agent+workflows;Turning+ideas+into+useful+software)](https://git.io/typing-svg)
+<br/>
+
+<a href="mailto:pradeep9887069@gmail.com"><img src="https://img.shields.io/badge/Email-Let's%20connect-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://linkedin.com/in/pradeep-kumar-6aa767324"><img src="https://img.shields.io/badge/LinkedIn-Connect-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://github.com/Pradeep-Kumar-30"><img src="https://img.shields.io/badge/GitHub-Follow-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 </div>
 
 ---
 
-<img align="right" alt="Developer coding at a laptop" width="340" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" />
+<table>
+<tr>
+<td width="58%" valign="middle">
 
-### About me
+## 👨‍💻 A little about me
 
-- 🎓 **B.Tech CSE student at IIIT Bhagalpur** 
-- 💼 **Full Stack Developer Intern at AMUS SOFT**
-- 🧠 Building with **LLMs, RAG, AI agents, and backend systems**
-- 🔭 Currently working on **PacketLens**, a Python-based Deep Packet Inspection engine
-- 🏆 Solved **850+ problems** across Codeforces, CodeChef, and LeetCode
-- 🌱 Exploring **system design, agentic workflows, and reliable AI evaluation**
-- 📫 Reach me at **[pradeep9887069@gmail.com](mailto:pradeep9887069@gmail.com)**
+I'm a **Computer Science student at IIIT Bhagalpur** who enjoys building useful software across full-stack development, backend systems, and AI engineering.
 
-<br clear="right"/>
+- 🎓 **B.Tech CSE, IIIT Bhagalpur**
+- 💼 **Full Stack Developer Intern** at AMUS SOFT
+- 🔭 Building **PacketLens**, a Python Deep Packet Inspection engine
+- 🤖 Exploring **RAG, AI agents, and multi-agent systems**
+- 🧩 Solved **850+** problems across coding platforms
+- 📍 Bhagalpur, India
 
-## 🧰 Tech I work with
+</td>
+<td width="42%" align="center" valign="middle">
 
-**Languages**  
-`C` · `C++` · `Python` · `JavaScript` · `SQL`
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="340" alt="Developer coding at a laptop" />
 
-**AI & Retrieval**  
-`LangGraph` · `LangChain` · `OpenAI API` · `Gemini API` · `RAG` · `Pinecone` · `Embeddings` · `RAGAS` · `DeepEval` · `LangSmith`
+</td>
+</tr>
+</table>
 
-**Backend & Full Stack**  
-`FastAPI` · `Node.js` · `Express.js` · `React.js` · `Redux Toolkit` · `REST APIs` · `WebSockets` · `Socket.IO` · `JWT` · `RBAC`
+## 🛰️ PacketLens: follow a packet
 
-**Data & Infrastructure**  
-`PostgreSQL` · `MongoDB` · `Redis` · `MySQL` · `Docker` · `AWS EC2` · `GitHub Actions` · `Linux` · `Pytest`
+**PacketLens** reads a PCAP capture, extracts packet and flow details, identifies available host information, then applies your filtering rules. The diagram shows the analysis path and the allow/block decision.
 
-## 🚀 Featured projects
+```mermaid
+flowchart LR
+    A["📁 PCAP capture"] --> B["📦 Read packet records"]
+    B --> C["🔍 Parse Ethernet, IPv4, TCP / UDP"]
+    C --> D["🧬 Group packets by 5-tuple flow"]
+    D --> E{"🌐 Host info available?"}
+    E -->|"TLS Client Hello"| F["Extract SNI"]
+    E -->|"HTTP request"| G["Read Host header"]
+    E -->|"Unavailable"| H["Keep host unknown"]
+    F --> I["🏷️ Classify application / domain"]
+    G --> I
+    H --> I
+    I --> J{"⚙️ Matches a block rule?"}
+    J -->|"No"| K["✅ Keep packet"]
+    J -->|"Yes"| L["⛔ Exclude packet"]
+    K --> M["📊 Traffic summary + filtered PCAP"]
+    L --> M
 
-### 🔎 [PacketLens](https://github.com/Pradeep-Kumar-30)
-**Deep Packet Inspection Engine** · `Python` `TCP/IP` `TLS` `HTTP` `PCAP` `Docker`
-
-Parses PCAP traffic, decodes network protocols, extracts TLS SNI and HTTP Host information, and applies configurable rules to classify and filter traffic.
-
-### 🤖 CloudOps Sentinel
-**Incident Response Self-RAG Copilot** · `LangGraph` `OpenAI` `Pinecone` `FastAPI`
-
-An evidence-focused incident response assistant with conditional retrieval, relevance grading, query rewriting, and answer support and usefulness checks.
-
-### 🚚 Cold-Chain Logistics
-**Agentic Dispatch Console** · `LangGraph` `Python` `SQL Server` `Pinecone` `AWS`
-
-Connects fleet data, weather information, and operating procedures to help generate contextual dispatch recommendations.
-
-### 💬 CampusConnect
-**Real-Time College Intranet** · `React` `Node.js` `MongoDB` `Socket.IO`
-
-A full-stack collaboration platform built for a college community, with real-time messaging, JWT authentication, and role-based access controls.
-
-## 🏅 Competitive programming
-
-- **850+** problems solved across platforms
-- **Codeforces:** Specialist · peak rating **1410**
-- **CodeChef:** 3-Star · peak rating **1653**
-- **LeetCode:** contest rating **1694** · top **14.69%**
-
-## 🔗 Connect with me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pradeep-kumar-6aa767324)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pradeep-Kumar-30)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pradeep9887069@gmail.com)
-
-## 📊 GitHub at a glance
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Pradeep-Kumar-30&show_icons=true&theme=tokyonight&hide_border=true" alt="Pradeep's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradeep-Kumar-30&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com?user=Pradeep-Kumar-30&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
-
-<div align="center">
-
-![Profile views](https://komarev.com/ghpvc/?username=Pradeep-Kumar-30&style=flat&color=38BDF8)
-
-</div>
+    classDef input fill:#172554,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px
+    classDef process fill:#0f172a,stroke:#64748b,color:#f8fafc
+    classDef decision fill:#422006,stroke:#f59e0b,color:#fef3c7,stroke-width:2px
+    classDef keep fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px
+    classDef drop fill:#450a0a,stroke:#ef4444,color:#fee2e2,stroke-width:2px
+    class A,M input
+    class B,C,D,F,G,H,I process
+    class E,J decision
+    class K keep
+    class L drop
