@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # 👋 Hi, I'm Pradeep Kumar
@@ -14,8 +15,8 @@
 
 ### About me
 
-- 🎓 **B.Tech CSE student at IIIT Bhagalpur** 
-- 💼 **Full Stack Developer Intern at AMUS SOFT(Jul 2026-Aug 2026)**
+- 🎓 **B.Tech CSE student at IIIT Bhagalpur**
+- 💼 **Full Stack Developer Intern at AMUS SOFT (Jul 2026-Aug 2026)**
 - 🧠 Building with **LLMs, RAG, AI agents, and backend systems**
 - 🔭 Currently working on **PacketLens**, a Python-based Deep Packet Inspection engine
 - 🏆 Solved **850+ problems** across Codeforces, CodeChef, and LeetCode
@@ -77,8 +78,8 @@ A full-stack collaboration platform built for a college community, with real-tim
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Pradeep-Kumar-30&show_icons=true&theme=tokyonight&hide_border=true" alt="Pradeep's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradeep-Kumar-30&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=Pradeep-Kumar-30&show_icons=true&theme=tokyonight&hide_border=true" alt="Pradeep's GitHub stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pradeep-Kumar-30&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 <img src="https://streak-stats.demolab.com?user=Pradeep-Kumar-30&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
