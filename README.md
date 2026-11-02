@@ -82,7 +82,7 @@ A full-stack collaboration platform built for a college community, with real-tim
 <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Pradeep-Kumar-30&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 
-<img src="https://streak-stats.demolab.com/?user=Pradeep-Kumar-30&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
 
 
 </div>
