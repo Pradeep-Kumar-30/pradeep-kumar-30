@@ -8,7 +8,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pradeep-kumar-6aa767324)
 [![Email](https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pradeep9887069@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/praadeep_yadav_)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20my%20work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pradeep-Kumar-30)
 
 ![Profile views](https://komarev.com/ghpvc/?username=Pradeep-Kumar-30&style=for-the-badge&color=0E7490&label=PROFILE+VIEWS)
@@ -21,23 +20,17 @@
 
 ## 👨‍💻 About me
 
-I'm a **Full-Stack Developer and AI Engineer** pursuing Computer Science at **IIIT Bhagalpur**. I like taking a problem from packet parsing or product idea through backend logic and into a usable interface.
+**Computer Science and Engineering undergraduate at IIIT Bhagalpur** with experience in full-stack development, AI engineering, backend systems, and competitive programming.
 
 - 🎓 **B.Tech in CSE, IIIT Bhagalpur** ·  · 2024–2028
 - 💼 **Full Stack Developer Intern, AMUS SOFT** · Jul–Aug 2026
-- 🔭 Building **PacketLens** and full-stack applications; exploring **Medisaathi**, a smart appointment and queue management system
-- 🌱 Learning **System Design, advanced backend development, Redis, and scalable architecture**
-- 🧠 Interested in **AI applications, RAG, multi-agent systems, and real-time products**
+- 🧠 Focus areas: **AI engineering, RAG and retrieval, backend and full-stack development**
 - 🧩 Solved **850+ problems** across Codeforces, CodeChef, and LeetCode
-- 🤝 Open to collaboration on **MERN, AI-powered apps, open source, and real-time projects**
-- 💬 Ask me about **React, Node.js, Express, MongoDB, REST APIs, JWT, Socket.IO, DSA, and competitive programming**
 
 </td>
 <td width="40%" align="center" valign="middle">
 
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="330" alt="Developer working at a laptop" />
-
-**Idea → architecture → implementation → ship**
 
 </td>
 </tr>
@@ -45,11 +38,9 @@ I'm a **Full-Stack Developer and AI Engineer** pursuing Computer Science at **II
 
 ## 📡 PacketLens — watch a packet travel
 
-An animated walkthrough: a packet travels from the **client**, through a **router**, and reaches the **PacketLens rule engine**. The YouTube example matches a block rule and gets dropped; an allowed packet continues to the server. This is an explanatory visualization of the project’s filtering flow.
-
 <div align="center">
 
-<img src="assets/packetlens-flow.gif" width="100%" alt="Animated PacketLens flow showing a packet moving from client to router, being blocked by PacketLens, and an allowed packet continuing to the server" />
+![Animated PacketLens packet flow](./assets/packetlens-flow.gif)
 
 </div>
 
@@ -89,68 +80,113 @@ flowchart LR
 
 > PacketLens focuses on classic Ethernet PCAP and IPv4 TCP/UDP. It extracts TLS SNI and HTTP Host when available in a packet; it does not reassemble TCP payloads split across packets, and encrypted traffic may hide host details.
 
-## 🚀 Projects I enjoy building
+## 🚀 Resume projects — visual flows
 
-| Project | What it does | Technologies |
-|---|---|---|
-| **PacketLens** | Deep packet inspection engine that parses PCAP, identifies flows, extracts visible host details, applies rules, and produces a filtered capture. | Python, TCP/IP, TLS, HTTP, PCAP, Docker |
-| **Medisaathi** | Smart appointment and queue management system. | MERN stack, full-stack development |
-| **CampusConnect** | Real-time college intranet for **500+ students**, with messaging and secure role-based access. | React, Node.js, Express, MongoDB, Socket.IO |
-| **AI Notes Generator** | Generates notes with the Gemini API. | AI API integration, web development |
-| **Zesto Food Delivery** | Full-stack food ordering platform. | MERN stack |
-| **CloudOps Sentinel** | Self-RAG incident response copilot with relevance grading, query rewriting, evidence checks, and private knowledge-base retrieval. | LangGraph, OpenAI, Pinecone, FastAPI, SQLite |
-| **Cold-Chain Logistics** | Agentic dispatch console that brings fleet data, weather, and operating procedures into one workflow. | LangGraph, Python, SQL Server, Pinecone, AWS EC2 |
-
-### 🧠 How my RAG projects reason
+### 💬 CampusConnect · Real-Time College Intranet
 
 ```mermaid
 flowchart LR
-    U[Question] --> R[Retrieve internal evidence]
-    R --> G{Relevant evidence?}
-    G -->|No| Q[Rewrite the query]
-    Q --> R
-    G -->|Yes| A[Generate grounded response]
-    A --> V[Check support and usefulness]
-    V -->|Improve| Q
-    V -->|Ready| O[Answer with evidence]
-
-    classDef start fill:#10213A,stroke:#38BDF8,color:#E0F2FE,stroke-width:2px
+    A[Student] --> B[JWT authentication]
+    B --> C{RBAC permission}
+    C -->|Denied| X[Reject request]
+    C -->|Allowed| D[CampusConnect]
+    D --> E[Message or event]
+    E --> F[Socket.IO / WebSocket]
+    F --> G[500+ student community]
+    G --> H[Real-time update]
+    classDef entry fill:#10213A,stroke:#38BDF8,color:#E0F2FE,stroke-width:2px
     classDef step fill:#111827,stroke:#64748B,color:#F8FAFC
-    classDef gate fill:#422006,stroke:#F59E0B,color:#FEF3C7,stroke-width:2px
-    classDef done fill:#052E16,stroke:#22C55E,color:#DCFCE7,stroke-width:2px
-    class U,O start
-    class R,Q,A,V step
-    class G gate
+    classDef choice fill:#422006,stroke:#F59E0B,color:#FEF3C7,stroke-width:2px
+    classDef deny fill:#450A0A,stroke:#EF4444,color:#FEE2E2
+    class A,H entry
+    class B,D,E,F,G step
+    class C choice
+    class X deny
 ```
+
+`React` · `Node.js` · `Express.js` · `MongoDB` · `Socket.IO` · `JWT` · `RBAC`
+
+### 🛡️ CloudOps Sentinel · Incident Response Self-RAG Copilot
+
+```mermaid
+flowchart LR
+    U[Incident question] --> R[Retrieve private runbooks and postmortems]
+    R --> G{Relevant evidence?}
+    G -->|No| Q[Rewrite query and retry]
+    Q --> R
+    G -->|Yes| A[Draft evidence-based answer]
+    R -. if internal evidence is insufficient .-> W[Tavily web-search fallback]
+    W --> A
+    A --> E[Evaluate support and usefulness]
+    E -->|Needs correction| Q
+    E -->|Passes checks| O[Return grounded response]
+    classDef entry fill:#10213A,stroke:#38BDF8,color:#E0F2FE,stroke-width:2px
+    classDef step fill:#111827,stroke:#64748B,color:#F8FAFC
+    classDef choice fill:#422006,stroke:#F59E0B,color:#FEF3C7,stroke-width:2px
+    classDef result fill:#052E16,stroke:#22C55E,color:#DCFCE7,stroke-width:2px
+    class U,O entry
+    class R,Q,A,E,W step
+    class G choice
+```
+
+`LangGraph` · `OpenAI GPT-5-mini` · `Pinecone` · `FastAPI` · `SQLite` · `Tavily` · `IsSUP` · `IsUSE`
+
+### 🚚 Cold-Chain Logistics · Agentic Dispatch Console
+
+```mermaid
+flowchart LR
+    U[Dispatch question] --> A[LangGraph agent]
+    A --> T{Choose tools}
+    T -->|Fleet telemetry| SQL[SQL Server]
+    T -->|Weather| WX[Open-Meteo]
+    T -->|Operating procedures| V[Pinecone SOP search]
+    SQL --> C[Combine retrieved context]
+    WX --> C
+    V --> C
+    C --> G{Need another tool call?}
+    G -->|Yes| A
+    G -->|No| R[Dispatch recommendation]
+    R --> UI[Streamlit operations console]
+    classDef entry fill:#10213A,stroke:#38BDF8,color:#E0F2FE,stroke-width:2px
+    classDef step fill:#111827,stroke:#64748B,color:#F8FAFC
+    classDef choice fill:#422006,stroke:#F59E0B,color:#FEF3C7,stroke-width:2px
+    classDef result fill:#052E16,stroke:#22C55E,color:#DCFCE7,stroke-width:2px
+    class U,UI entry
+    class A,SQL,WX,V,C step
+    class T,G choice
+    class R result
+```
+
+`LangGraph` · `Python` · `SQL Server` · `Open-Meteo` · `Pinecone` · `Streamlit` · `AWS EC2` · `GitHub Actions`
 
 ## 🧰 Technologies
 
 <details>
-<summary><b>AI engineering, RAG & evaluation</b></summary>
+<summary><b>AI engineering, retrieval & evaluation</b></summary>
 <br/>
 
-`LangGraph` `LangChain` `OpenAI API` `Gemini API` `AI Agents` `Multi-Agent Systems` `Tool Calling` `MCP` `Prompt Engineering` `Structured Outputs` `Human-in-the-Loop` `RAG` `Self-RAG` `Agentic RAG` `CRAG` `Hybrid Search` `Semantic Search` `BM25` `Embeddings` `Reranking` `Vector Search` `RAGAS` `DeepEval` `LangSmith` `LLM-as-a-Judge` `Hallucination Detection`
+`LangGraph` `LangChain` `OpenAI API` `Gemini API` `AI Agents` `Multi-Agent Systems` `Tool Calling` `Function Calling` `MCP` `Prompt Engineering` `Structured Outputs` `Human-in-the-Loop` `RAG` `Self-RAG` `Agentic RAG` `CRAG` `Hybrid Search` `Semantic Search` `BM25` `Embeddings` `Query Rewriting` `Reranking` `Vector Search` `RAGAS` `DeepEval` `LangSmith` `LLM-as-a-Judge` `IsSUP` `IsUSE` `Faithfulness` `Groundedness` `Hallucination Detection`
 </details>
 
 <details>
 <summary><b>Languages, frontend & backend</b></summary>
 <br/>
 
-`C` `C++` `Python` `JavaScript` `SQL` `HTML` `CSS` `React` `React Native` `Redux Toolkit` `React Router` `React Hook Form` `Node.js` `Express.js` `FastAPI` `REST APIs` `WebSockets` `Socket.IO` `JWT` `RBAC` `PHP`
+`C` `C++` `Python` `JavaScript` `SQL` `HTML` `CSS` `React.js` `Redux Toolkit` `Node.js` `Express.js` `FastAPI` `REST APIs` `WebSockets` `Socket.IO` `JWT` `RBAC`
 </details>
 
 <details>
 <summary><b>Databases, cloud & developer tools</b></summary>
 <br/>
 
-`PostgreSQL` `MongoDB` `Redis` `MySQL` `SQL Server` `SQLite` `Pinecone` `Firebase` `AWS EC2` `Docker` `Nginx` `Linux` `Git` `GitHub` `GitHub Actions` `CI/CD` `Vercel` `Pytest` `Postman` `Vite` `Tailwind CSS` `Sass` `Bootstrap` `Three.js`
+`PostgreSQL` `MySQL` `SQL Server` `MongoDB` `Redis` `Pinecone` `SQLite` `Vector Databases` `AWS EC2` `Docker` `GitHub Actions` `CI/CD` `Linux` `Git` `GitHub` `Nginx` `Postman` `Pytest` `Deployment Automation`
 </details>
 
 <details>
-<summary><b>Also used</b></summary>
+<summary><b>System design & computer science</b></summary>
 <br/>
 
-`Nodemon` `Canva` `NumPy` `Pandas` `Matplotlib`
+`HLD` `LLD` `OOP` `SOLID` `Microservices` `Distributed Systems` `API Integration` `Enterprise Integration` `Solution Architecture` `Rapid Prototyping` `Debugging` `Data Structures & Algorithms` `Operating Systems` `DBMS` `Computer Networks` `TCP/IP` `HTTP` `TLS`
 </details>
 
 ## 🏅 Competitive programming
@@ -159,41 +195,31 @@ flowchart LR
 
 | Codeforces | CodeChef | LeetCode |
 |:---:|:---:|:---:|
-| **Specialist** · peak **1410** | **3-Star** · peak **1653** | Contest rating **1694** |
+| **Specialist** · peak **1410**, current **1339** | **3-Star** · peak **1653** | Contest rating **1694** |
 | 468 problems | 224 problems · 31 contests | Top **14.69%** |
 
 **850+ problems solved** across platforms · DSA, graphs, dynamic programming, and greedy algorithms
 
 </div>
 
-## 📊 GitHub activity
+## 💼 Experience & leadership
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Pradeep-Kumar-30&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub contribution statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradeep-Kumar-30&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Pradeep-Kumar-30&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
-
-</div>
-
-## 🌱 Beyond the code
-
+- **Full Stack Developer Intern**, AMUS SOFT · Remote · Jul–Aug 2026
 - **Web Developer**, IIIT Bhagalpur Development Team · 2024–present
 - **Class Representative** · 2024–present
 - **Hackathon Team Lead** · led a four-member team through architecture, implementation, and debugging
-- Certifications: **Cisco Introduction to Cybersecurity**, **Adobe University Hackathons**, and **Machine Learning and Deep Learning in Agriculture and Biomedical Engineering** at IIIT Bhagalpur
-- I enjoy building scalable applications and solving challenging algorithmic problems.
+
+## 📜 Certifications
+
+- Introduction to Cybersecurity · Cisco Networking Academy
+- Adobe University Hackathons · Adobe
+- Machine Learning and Deep Learning in Agriculture and Biomedical Engineering · IIIT Bhagalpur
 
 <div align="center">
 
-### Have an interesting product or open-source idea? Let's build.
+### Contact
 
 [![Email Pradeep](https://img.shields.io/badge/Let's%20collaborate-pradeep9887069%40gmail.com-06B6D4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pradeep9887069@gmail.com)
-
-<sub>Previously listed email: <a href="mailto:pradeepkumariiitbhagalpur@gmail.com">pradeepkumariiitbhagalpur@gmail.com</a></sub>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:123B69,100:070B18&height=110&section=footer" alt="" />
 
