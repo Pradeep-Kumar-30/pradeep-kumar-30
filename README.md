@@ -15,7 +15,7 @@
 ### About me
 
 - 🎓 **B.Tech CSE student at IIIT Bhagalpur** 
-- 💼 **Full Stack Developer Intern at AMUS SOFT**
+- 💼 **Full Stack Developer Intern at AMUS SOFT(Jul 2026-Aug 2026)**
 - 🧠 Building with **LLMs, RAG, AI agents, and backend systems**
 - 🔭 Currently working on **PacketLens**, a Python-based Deep Packet Inspection engine
 - 🏆 Solved **850+ problems** across Codeforces, CodeChef, and LeetCode
